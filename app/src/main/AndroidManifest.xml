@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leidong.myapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="10" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <!-- 声明contentProvider -->
+        <provider android:name=".database.ItemsProvider"
+            android:authorities="com.example.leidong.provider.ItemsProvider"/>
+        <!-- 主界面 -->
+        <activity android:name=".database.MyItems"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 编辑、新建界面 -->
+        <activity android:name=".database.ItemEditor"
+            android:label="@string/editor_item">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.mycontacts" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.mycontacts" />
+            </intent-filter>
+        </activity>
+        <!-- 查看界面 -->
+        <activity android:name=".database.ItemView"
+            android:label="@string/view_user">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.mycontacts" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.mycontacts" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="查看联系人"
+            android:textColor="#000000"
+            android:padding="15dip" />
+    </TableRow>
+    <!-- 间隔线 -->
+    <View
+        android:layout_height="3dip"
+        android:background="#ffffffff" />
+    <TableRow>
+        <!-- 条目名标签 -->
+        <TextView
+            android:layout_column="1"
+            android:text="条目名："
+            android:textColor="#000000"
+            android:padding="10dip" />
+        <TextView
+			android:id="@+id/TextView_Name"
+            android:textColor="#000000"
+            android:padding="10dip" />
+    </TableRow>
+    <View
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+    <TableRow>
+        <!-- 用户名标签 -->
+        <TextView
+            android:layout_column="1"
+            android:text="用户名："
+            android:textColor="#000000"
+            android:padding="10dip" />
+        <TextView
+			android:id="@+id/TextView_Mobile"
+            android:textColor="#000000"
+            android:padding="10dip" />
+    </TableRow>
+    <View
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+    <TableRow>
+        <!-- 密码标签 -->
+        <TextView
+            android:layout_column="1"
+            android:text="密码："
+            android:textColor="#000000"
+            android:padding="10dip" />
+        <TextView
+			android:id="@+id/TextView_Home"
+            android:textColor="#000000"
+            android:padding="10dip" />
+    </TableRow>
+    <View
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+    <TableRow>
+        <!-- url标签 -->
+        <TextView
+            android:layout_column="1"
+            android:text="url："
+            android:textColor="#000000"
+            android:padding="10dip" />
+        <TextView
+			android:id="@+id/TextView_Address"
+            android:textColor="#000000"
+            android:padding="10dip" />
+    </TableRow>
+    <View
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+    <TableRow>
+        <!-- info标签 -->
+        <TextView
+            android:layout_column="1"
+            android:text="info："
+            android:textColor="#000000"
+            android:padding="10dip" />
+        <TextView
+			android:id="@+id/TextView_Email"
+            android:textColor="#000000"
+            android:padding="10dip" />
+    </TableRow>
+    <View
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+</TableLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#ffffff">
+	<TableRow 
+		android:id="@+id/TableRow01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<!-- 条目名标签 -->
+		<TextView 
+			android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/name"
+			android:textColor="#000000"
+			android:textSize="26px" />
+		<EditText 
+			android:id="@+id/EditText01" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+	</TableRow>
+	<TableRow 
+		android:id="@+id/TableRow02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<!-- 用户名标签 -->
+		<TextView 
+			android:id="@+id/TextView02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="26px"
+			android:text="@string/username"
+			android:textColor="#000000"/>
+		<EditText 
+			android:id="@+id/EditText02" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+	</TableRow>
+	<TableRow 
+		android:id="@+id/TableRow03" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<!-- 密码标签 -->
+		<TextView 
+			android:id="@+id/TextView03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="26px"
+			android:text="@string/password"
+			android:textColor="#000000"/>
+		<EditText 
+			android:id="@+id/EditText03" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+	</TableRow>
+	<TableRow 
+		android:id="@+id/TableRow04" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<!-- url标签 -->
+		<TextView 
+			android:id="@+id/TextView04" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="26px"
+			android:text="@string/url"
+			android:textColor="#000000"/>
+		<EditText 
+			android:id="@+id/EditText04" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+	</TableRow>
+	<TableRow 
+		android:id="@+id/TableRow05" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<!-- info标签 -->
+		<TextView 
+			android:id="@+id/TextView05" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/info"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+		<EditText 
+			android:id="@+id/EditText05" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="26px"
+			android:textColor="#000000"/>
+	</TableRow>
+	<TableRow
+	    android:id="@+id/TableRow07"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal" >
+		<!-- 保存按钮 -->
+		<Button 
+			android:id="@+id/Button01" 
+			android:layout_height="wrap_content" 
+			android:text="@string/ok"
+			android:textSize="26px"
+			android:layout_width="wrap_content" />
+		<!-- 取消按钮 -->
+		<Button 
+			android:id="@+id/Button02" 
+			android:layout_height="wrap_content" 
+			android:text="@string/cancel"
+			android:textSize="26px"
+			android:layout_width="wrap_content" />
+	</TableRow>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyAPP</string>
+    <string name="add_item">添加条目</string>
+    <string name="editor_item">编辑条目</string>
+    <string name="view_user">查看条目</string>
+    <string name="exit">退出数据库</string>
+    <string name="name">条目名：</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="url">url：</string>
+    <string name="info">info：</string>
+    <string name="blog">主页：</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete_item">删除条目</string>
+    <string name="revert">返回列表</string>
+    <string name="call_user">呼叫</string>
+    <string name="sendsms_user">发短信给</string>
+</resources>
