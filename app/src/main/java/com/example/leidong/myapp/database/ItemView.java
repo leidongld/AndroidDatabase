@@ -10,18 +10,20 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.example.leidong.myapp.R;
-
+/**
+ * Created by Lei Dong
+ */
 public class ItemView extends Activity
 {
-	//
+	//TextView条目名
 	private TextView mTextViewName;
-	//
+	//TextView用户名
 	private TextView mTextViewUsername;
-	//
+	//TextView密码
 	private TextView mTextViewPassword;
-	//
+	//TextView URL
 	private TextView mTextViewURL;
-	//
+	//TextView Info
 	private TextView mTextViewInfo;
 	
     private Cursor mCursor;

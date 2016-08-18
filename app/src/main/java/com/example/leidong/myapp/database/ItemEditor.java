@@ -14,7 +14,9 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.leidong.myapp.R;
-
+/**
+ * Created by Lei Dong
+ */
 public class ItemEditor extends Activity
 {
 	//

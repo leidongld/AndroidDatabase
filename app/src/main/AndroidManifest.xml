@@ -23,12 +23,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.mycontacts" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.myitems" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.INSERT" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.mycontacts" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.myitems" />
             </intent-filter>
         </activity>
         <!-- 查看界面 -->
@@ -37,11 +37,11 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.mycontacts" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.leidong.android.myitems" />
             </intent-filter>
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.mycontacts" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.leidong.android.myitems" />
             </intent-filter>
         </activity>
     </application>
